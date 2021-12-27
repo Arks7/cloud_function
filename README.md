@@ -14,6 +14,8 @@ GOOS=linux GOARCH=amd64 go build -o main main.go
 zip main.zip main config.yaml
 ```    
 
+## 修复
+### 1.https x509证书验证失败，无法使用Https的Bug.
 
 
 
